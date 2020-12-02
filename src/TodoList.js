@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Input, Button, List } from 'antd'
 import store from './store'
-import { CHANGE_INPUT, ADD_ITEM, DELETE_ITEM } from './store/actionTypes'
 import { changeInputAction, addItemAction, deleteItemAction } from './store/actionCreators'
 import '_antd@4.9.1@antd/dist/antd.css';
 
